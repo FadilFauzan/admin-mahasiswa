@@ -1,0 +1,83 @@
+.uniqcustom {
+    border: 3px rgb(126, 185, 225) solid;
+    border-radius: 3%;
+    box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.089);
+    width: 400px;
+    padding: 35px 30px;
+}
+
+.uniqcustom-insert {
+    border: 3px rgb(126, 185, 225) solid;
+    border-radius: 3%;
+    box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.089);
+    width: 650px;
+    padding: 35px 30px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.img2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: auto;
+    overflow: auto;
+}
+
+.navv, .allin {
+    width: 75%;
+}
+
+@media screen and (max-width:850px) {
+    .navv {
+        flex-direction: column;
+    }
+
+    .mergecol {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:576px) {
+    * {
+        font-size: 13px;
+    }
+
+    .navv p {
+        font-size: 20px;
+    }
+
+    .fontcustom a {
+        font-size: 12px;
+    }
+
+    .navv {
+        width: 100%;
+    }
+
+    .allin{
+        width: 90%;
+    }
+
+    .img2 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .uniqcustom, .uniqcustom-insert{
+        border: 3px rgb(126, 185, 225) solid;
+        border-radius: 15px;
+        box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.089);
+        width: 85%;
+        padding: 35px 30px;
+    }
+
+}
+
